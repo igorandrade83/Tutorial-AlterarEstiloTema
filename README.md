@@ -1,6 +1,6 @@
 # Introdução
 
-Esta é uma aplicação criada com o Cronapp IDE (v. 2.3.26) e é parte do Tutorial Atualizar estilo de cor do tema.
+Esta é uma aplicação criada com o Cronapp IDE (v. 2.3.26) e é parte do Tutorial Alterar estilo do tema.
 
 ## Pré-Requisitos
 
