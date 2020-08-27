@@ -1,7 +1,5 @@
 /* template 1 */
-a {
-    color: #265280;
-}
+
 /*login*/
 
 .bg {
@@ -25,12 +23,7 @@ a {
     background-color: #265280;
     color: #fff;
 }
-.btn-default {
-    text-decoration: none;
-    outline: 0;
-    background-color: #97C93D!important;
-    color: #fff;
-}
+
 label.text-login {
     color: #fff;
     font-weight: 500;
@@ -46,28 +39,41 @@ label.text-login {
     margin: 7% auto 0 auto;
 }
 /*FIM login*/
+
+
+/* home */
 .jumbotron {
     display:none;
 }
 
+/*tag padrão HTML*/
+a {
+    color: #265280;
+}
 label {
     color: #265280;
     font-weight: 600;
     font-size: 12px;
 }
-/*Menu navbar e navbar-default */
+/*FIM tag padrão HTML*/
 
+/*Classe padrão bootstrap*/
+
+/*FIM tag padrão HTML*/
+
+
+/* Menu navbar e navbar-default 
+        Classe padrão bootstrap
+*/
+ 
 .dropdown-menu>li>a {
     color: #002E5D!important;
 }
-
 .caret {
     padding-top: 5px;
     margin-left: 5px;
+    color: s#514D4D;
 }
-
-
-
 .navbar-default {
     background-color: #fff;
 }
@@ -100,37 +106,87 @@ label {
     opacity: 1 !important;
     border: none;
 }
-
-
-/*collapse lista*/
 .fa {
     position: relative;
     right: 11px;
     display: inline-block;
 }
 
-
-/* Buttons */
-
+/* Buttons **/
 button.btn-default {
-    color: #0077bf!important;
+    color: #fff!important;
+    background: #97C93D!important;
+    border-radius: 4px;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: 200ms;
+}
+button.btn-primary {
+    color: #fff!important;
+    background: #265280!important;
+    border-radius: 4px;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: 200ms;
+}
+button.btn-info {
+    color: #255280!important;
     background: #fff!important;
     border-radius: 4px;
     padding: 10px;
     text-transform: uppercase;
     transition: 200ms;
-    float: right;
+
 }
+button.btn-success {
+    color: #fff!important;
+    background: #B8DD74!important;
+    border-radius: 4px;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: 200ms;
+}
+button.btn-danger {
+    color: #265280!important;
+    background: #DDDADA!important;
+    border-radius: 4px;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: 200ms;
+}
+button.btn-warning {
+    color: #265280!important;
+    background: #FFE920!important;
+    border-radius: 4px;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: 200ms;
+}
+button.btn-light {
+    color: #fff!important;
+    background: #579DE3!important;
+    border-radius: 4px;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: 200ms;
+}
+button.btn-link {
+    color: #fff!important;
+    background: #514D4D!important;
+    border-radius: 4px;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: 200ms;
+}
+/*FIM Classe padrão bootstrap*/ 
 
 
-
+/*Classe padrão Material*/
 .k-button {
     box-shadow: none;
     font-weight: 500;
     transition: box-shadow .28s cubic-bezier(.4,0,.2,1);
 }
-
-
 .k-button, .k-fieldselector .k-list li.k-item, .k-handle, .k-list-container .k-nodata .k-button, .k-map .k-navigator, .k-numerictextbox .k-select, .k-pivot-toolbar .k-button, .k-spreadsheet-filter, .k-switch-handle, .k-toolbar .k-split-button .k-button {
     color: #fff;
     background: #401801;
@@ -139,18 +195,18 @@ button.btn-default {
 /* hover */
 button.btn-default:hover {
     opacity: 1 !important;
-    background: #265280!important;
+    /* background: #FFE920!important; */
     color: #fff !important;
     border: none;
 }
-
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background-color: #97C93D;
 }
  .navbar-default .navbar-nav>li>a:focus {
      color: #B8DD74!important;
  } 
-/* FIM buttons*/
+
+
 /*radio buttons*/
 .k-radio:checked+.k-radio-label:after {
     background-color: #97c93d;
@@ -162,7 +218,7 @@ button.btn-default:hover {
 .k-radio-label:after {
     background-color: #DDDADA;
 }
-
+/* FIM Classe padrão Material*/
 /*imagem*/
 .center-block {
     display: block;
@@ -175,7 +231,7 @@ button.btn-default:hover {
 /*FIM IMAGEM*/
 /* checkbox KENDO */
 .k-checkbox:indeterminate+.k-checkbox-label:before {
-    background-color: #FFF;
+    background-color: #B8DD74;
     border-color: #fff;
 }
 .k-checkbox:checked+.k-checkbox-label:before {
@@ -200,11 +256,12 @@ button.btn-default:hover {
     font-weight: 500;
 }
 
-/*table grid*/
-.k-grid-content tr:last-child td, .k-grid-content-locked tr:last-child td {
-    border-bottom-width: 0;
-    width: 128px;
+/*coluna Grid nome td*/
+.k-grid td, .k-grid th {
+    padding: 5px 24px;
+    width: 11%;
 }
+/* Fim coluna Grid nome td*/
 /*bola grid*/
 .k-pager-wrap .k-state-selected {
     color: #fff;
@@ -316,7 +373,7 @@ div.k-grid-header {
 }
 .k-textbox.form-control {
     height: calc(2.25rem + 2px);
-    color: #fff;
+    color: #514D4D;
     padding: .5rem .75rem;
 }
 .k-textbox.form-control:hover {
@@ -333,6 +390,36 @@ img.user-avatar .user-avatar-two {
     color: red!important;
 }
 /*fim painel*/
+
+/*Combo 
+    Multiselect
+*/
+.k-multiselect-wrap .k-button {
+    min-height: 2em;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: .75em;
+    line-height: 2;
+    box-shadow: none;
+    color: #514D4D;
+    border-radius: 2em;
+    background: #DDDADA;
+}
+/*combo simples*/
+.k-dateinput-wrap .k-select {
+    padding: 4px 8px;
+    background: #514D4D;
+}
+.k-dropdown-wrap .k-input {
+    padding: 0px 10px;
+}
+/*FIM combo simples*/
+
+/*Avaliação*/
+.fa-star {
+    color: #97C93D;
+}
+
 @media screen and (max-width: 600px)  {
     .navbar-header {
        height: 110px;
