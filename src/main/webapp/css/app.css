@@ -418,7 +418,24 @@ img.user-avatar .user-avatar-two {
 /*Avaliação*/
 .fa-star {
     color: #97C93D;
+    border-style: inset;
+    background-color: #DDDADA;
 }
+
+.fa-star-o {
+    color: #B8DD74; 
+    border-style: outset;
+}
+
+.classe {
+    color: yellow; 
+}
+
+.classe-existente {
+     /*classe vazia de exemplo*/ 
+}
+
+/*FIM Avaliação*/
 
 @media screen and (max-width: 600px)  {
     .navbar-header {
